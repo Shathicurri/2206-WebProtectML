@@ -3,7 +3,7 @@ from MyPrediction import Prediction, display_and_export_html
 from log_cleaner import log_cleaner
 
 # apache_log_location = 'var/log/apache2/access.log'
-apache_log_location = 'var/smoketest.log'
+apache_log_location = 'var/testdatashuffle.log'
 
 output = log_cleaner(apache_log_location)
 combo = Prediction(output)
