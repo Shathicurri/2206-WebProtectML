@@ -1,7 +1,11 @@
 # ICT2206-WebProtectML
 WebProtectML is a web attack detection software utilising TensorFlow, Keras and Scikit to learn and recognize different patterns in apache access logs.
 # Usage
-
+```
+python tensor-test.py
+python register.py
+python main.py
+```
 # Features
 * Detect web attacks in apache access logs
 * Emails html report to user
